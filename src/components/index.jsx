@@ -1,3 +1,5 @@
+/* eslint import/no-cycle: [2, { ignoreExternal: true }] */
+
 export { default as Button } from './Button';
 export { default as ThemeSettings } from './ThemeSettings';
 export { default as Sidebar } from './Sidebar';
